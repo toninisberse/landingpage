@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizar a nav da classe menu */
+.inicio {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(15, 110, 35);
+    background: linear-gradient(90deg, rgba(15, 110, 35, 1) 6%, rgba(255, 255, 255, 1) 36%, rgba(253, 194, 203, 1) 52%, rgba(245, 11, 47, 1) 100%);
+    font-family: "Tangerine";
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 20%;
+    height: 80px;
+    float: left;
+}
+
+nav {
+    width: 80%;
+    height: 80px;
+    float: left;
+}
+
+.inicio img {
+    width: auto;
+    max-height: 75px;
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 25px;
+    text-align: right;
+}
+
+nav li {
+    text-align: right;
+    text-decoration-line: none;
+    display: inline;
+    box-sizing: border-box;
+    padding: 15px;
+
+}
+
+.inicio li a {
+    text-decoration-line: none;
+    color: black;
+    font-size: 30px;
+}
+
+#inverter {
+    transform: scaleX(-1);
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.imagem {
+    display: flex;
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+body {
+    font-family: "Tangerine";
+    background: rgb(25, 56, 15);
+    background: linear-gradient(90deg, rgba(25, 56, 15, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(179, 15, 27, 1) 100%);
+}
+
+.texto {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto .cont1 {
+    width: 70%;
+}
+
+.texto .cont2 {
+    font-size: 30px;
+    width: 100%;
+    padding-left: 450px;
+    box-sizing: border-box;
+}
+
+.texto .cont1 h1 {
+    font-size: 40px;
+}
+
+.texto .cont1 h2 {
+    font-size: 30px;
+}
+
+.email {
+    font-size: 30px;
+    text-align: center; 
+}
+.botao{
+    background: rgb(25,56,15);
+    background: linear-gradient(90deg, rgba(25,56,15,1) 0%, rgba(255,255,255,1) 50%, rgba(179,15,27,1) 100%);
+    font-family: "Tangerine";
+    font-size: 18px;
+}
+.input{
+    font-size: 18px;
+    font-family: "Tangerine";
+    color: black;
+    width: 300px;
+
+}
